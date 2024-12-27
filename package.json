@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon --watch backend/src --exec ts-node backend/src/index.ts"
+    "dev": "nodemon --watch backend/src --exec ts-node backend/src/index.ts"
   },
   "type": "module",
   "keywords": [],
@@ -17,6 +17,12 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "@prisma/client": "^6.1.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^6.1.0"
   }
 }

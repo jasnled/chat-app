@@ -1,7 +1,9 @@
 import express from 'express';
-import authRoutes from './routes/authRoute.js';
-import messagesRoutes from './routes/messageRoute.js';
+import authRoutes from './routes/auth.route.js';
+import messagesRoutes from './routes/message.route.js';
+import dotenv from 'dotenv';
 
+dotenv.config();
 const PORT = 5000; 
 const app = express();
 
